@@ -21,9 +21,9 @@ title_separator: "-"
 subtitle: # site tagline that appears below site title in masthead
 name: "TheZombrex"
 description: "TheZombrex Blog"
-url: "https://blog.thezombrex.github.io"
-baseurl: "" # the subpath of your site, e.g. "/blog"
-repository: "thezombrex/blog.thezombrex.github.io"
+url: "https://thezombrex.github.io/blog"
+baseurl: "/" # the subpath of your site, e.g. "/blog"
+repository: "thezombrex/blog"
 teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo: "/assets/images/logo.png"
 masthead_title: # overrides the website title displayed in the masthead, use " " for no title
@@ -32,7 +32,7 @@ words_per_minute: 200
 comments:
   provider: # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
-    shortname: blog.thezombrex.github.io # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname: thezombrex.github.io/blog # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server: # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
