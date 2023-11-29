@@ -20,7 +20,7 @@ title: "TheZombrex's Blog"
 title_separator: "-"
 subtitle: # site tagline that appears below site title in masthead
 name: "TheZombrex"
-description: "TheZombrex blog"
+description: "TheZombrex Blog"
 url: "https://blog.thezombrex.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: "thezombrex/blog.thezombrex.github.io"
@@ -28,7 +28,7 @@ teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo: "/assets/images/logo.png"
 masthead_title: # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
-words_per_minute: 50
+words_per_minute: 200
 comments:
   provider: # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
@@ -62,8 +62,6 @@ atom_feed:
 search: # true, false (default)
 search_full_content: # true, false (default)
 search_provider: # lunr (default), algolia, google
-lunr:
-  search_within_pages: true, false (default)
 algolia:
   application_id: # YOUR_APPLICATION_ID
   index_name: # YOUR_INDEX_NAME
