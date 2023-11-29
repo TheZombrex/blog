@@ -16,7 +16,7 @@ minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon
 
 # Site Settings
 locale: "es-ES"
-title: "TheZombrex"
+title: "TheZombrex's Blog"
 title_separator: "-"
 subtitle: # site tagline that appears below site title in masthead
 name: "TheZombrex"
@@ -30,7 +30,7 @@ masthead_title: # overrides the website title displayed in the masthead, use " "
 # breadcrumbs            : false # true, false (default)
 words_per_minute: 50
 comments:
-  provider: "disqus" #false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  provider: # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
     shortname: blog.thezombrex.github.io # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -75,9 +75,8 @@ google:
 # SEO Related
 google_site_verification:
 bing_site_verification:
-naver_site_verification:
 yandex_site_verification:
-baidu_site_verification:
+naver_site_verification:
 
 # Social Sharing
 twitter:
@@ -114,7 +113,7 @@ author:
       url: "mailto:thezombrex@protonmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "https://thezombrex.github.io"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/TheZombrex"
@@ -283,13 +282,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
+      comments: # true
       share: true
       related: true
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
