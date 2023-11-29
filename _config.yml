@@ -22,7 +22,7 @@ subtitle: # site tagline that appears below site title in masthead
 name: "TheZombrex"
 description: "TheZombrex Blog"
 url: "https://blog.thezombrex.github.io"
-baseurl: # the subpath of your site, e.g. "/blog"
+baseurl: / # the subpath of your site, e.g. "/blog"
 repository: "thezombrex/blog.thezombrex.github.io"
 teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo: "/assets/images/logo.png"
